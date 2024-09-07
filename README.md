@@ -1,5 +1,7 @@
 ## ** Projeto "Meu Café" - Imersão Dev com Google Gemini**
 
+### Segue link para visualizar o projeto: :star: [`Meu Café`](meucafe-three.vercel.app)
+
 ### ☕ **Seu Café, Sua História, Seu Momento... E um Pouquinho de Código!**
 
 **O que essa aplicação faz?**
