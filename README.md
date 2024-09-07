@@ -36,7 +36,7 @@ Se você tiver alguma dúvida ou sugestão, é só abrir uma issue ou me mandar 
 ---
 ### 🎯&nbsp;Onde me encontrar:
 
-[![GitHub](https://img.shields.io/badge/GitHub-1c1f23?style=for-the-badge&logo=github&logoColor=white)](https://github.com/https://github.com/Ha1000tonG)
+[![GitHub](https://img.shields.io/badge/GitHub-1c1f23?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ha1000tonG)
 
 
-[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hamilton-godoi-silveira-229b9218/)
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/https://www.linkedin.com/in/hamilton-godoi-silveira-229b9218/)
