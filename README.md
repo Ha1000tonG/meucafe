@@ -11,7 +11,7 @@ Imagina um site onde você pode encontrar o café perfeito para aquele seu momen
 **Como funciona essa mágica?**
 
 1. **Você digita:** Escreve o tipo de café que você procura na barra de pesquisa.
-2. **A máquina procura:** O JavaScript vasculha uma lista enorme de cafés (guardada no arquivo `dados.js`) para encontrar aqueles que combinam com a sua busca.
+2. **A máquina procura:** O JavaScript vasculha uma lista de tipos de cafés (guardada no arquivo `dados.js`) para encontrar aqueles que combinam com a sua busca.
 3. **A mágica acontece:** Os resultados aparecem na tela, mostrando tudo sobre os cafés encontrados, como sabor, aroma e entre outras coisas.
 
 **Tecnologias usadas:**
