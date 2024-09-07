@@ -36,6 +36,6 @@ Se você tiver alguma dúvida ou sugestão, é só abrir uma issue ou me mandar 
 ---
 
 
-**`[LinkedIn] https://www.linkedin.com/in/hamilton-godoi-silveira-229b9218/**
+**[LinkedIn] https://www.linkedin.com/in/hamilton-godoi-silveira-229b9218/**
 
 **[GitHub] https://github.com/Ha1000tonG**
