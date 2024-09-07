@@ -1,0 +1,248 @@
+/* Importa a fonte Chakra Petch do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+/* Importa a fonte Roboto do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* Estiliza o corpo da página */
+body {
+    font-family: "Chakra Petch", sans-serif;
+    /* Define a fonte padrão */
+    background-image: url(img/coffee.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    /* Usa Flexbox para layout */
+    flex-direction: column;
+    /* Alinha os itens na vertical */
+    align-items: center;
+    /* Centraliza os itens horizontalmente */
+    justify-content: center;
+    /* Centraliza os itens verticalmente */
+    height: 100vh;
+    /* Preenche a altura total da viewport */
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Estiliza os títulos h1 */
+h1 {
+    font-size: 1.8rem;
+    /* Tamanho da fonte */
+    color: #ffffff;
+    /* Cor do texto */
+    text-align: center;
+    /* Alinha o texto ao centro */
+    letter-spacing: 0.4rem;
+    /* Espaçamento entre letras */
+}
+
+/* Estiliza as seções da página */
+section {
+    display: flex;
+    /* Usa Flexbox para layout */
+    flex-direction: row;
+    /* Alinha os itens na vertical */
+    justify-content: space-evenly;
+    /* Distribuir o espaço entre os itens */
+    align-items: center;
+    /* Centraliza os itens horizontalmente */
+    margin-bottom: 2rem;
+    /* Espaçamento abaixo de cada seção */
+}
+
+/* Estiliza os inputs dentro das seções */
+section input {
+    display: flex;
+    /* Usa Flexbox para layout */
+    flex-direction: row;
+    width: 30rem;
+    /* Largura dos inputs */
+    border: none;
+    /* Remove a borda padrão */
+    padding: 1rem;
+    /* Espaçamento interno */
+    border-radius: 1.5rem;
+    /* Borda arredondada */
+    background: #0e0d0d;
+    opacity: 0.8;
+    color: #ffffff;
+    /* Cor do texto */
+    font-size: 1rem;
+    /* Tamanho da fonte */
+
+}
+
+section input:focus {
+    outline: none;
+    background: #0e0d0d;
+    opacity: 0.8;
+    color: #ffffff;
+}
+
+/* Estiliza os botões dentro das seções */
+section button {
+    padding: 1rem;
+    /* Espaçamento interno do botão */
+    border-color: #ffffff;
+    /* Remove a borda padrão */
+    border-radius: 1.5rem;
+    /* Borda arredondada */
+    background: none;
+    color: #F5F7F8;
+    /* Cor do texto do botão */
+    font-size: 1rem;
+    /* Tamanho da fonte */
+    cursor: pointer;
+    /* Muda o cursor para indicar que é clicável */
+}
+
+/* Estiliza a caixa de resultados da pesquisa */
+.resultados-pesquisa {
+    display: flex;
+    /* Usa Flexbox para layout */
+    flex-direction: column;
+    /* Alinha os itens na vertical */
+    width: 60rem;
+    /* Largura máxima da caixa de resultados */
+    height: 46vh;
+    /* Altura máxima da caixa de resultados */
+    overflow-y: auto;
+    /* Adiciona rolagem vertical se necessário */
+    margin-top: 1rem;
+    /* Espaçamento acima da caixa de resultados */
+    padding: 1rem;
+    /* Espaçamento interno */
+    border-radius: 0.6rem;
+    /* Borda arredondada */
+}
+
+/* Estiliza cada item de resultado */
+.item-resultado {
+    font-family: "Roboto";
+    background: #0e0d0d;
+    opacity: 0.8;
+    /* Cor de fundo dos itens */
+    border-radius: 0.6rem;
+    /* Borda arredondada */
+    padding: 1rem;
+    /* Espaçamento interno */
+    margin-bottom: 1rem;
+    /* Espaçamento abaixo dos itens */
+
+}
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultado h2 {
+    font-size: 1.5rem;
+    /* Tamanho da fonte */
+    color: #222831;
+    /* Cor do texto */
+}
+
+/* Estiliza os links dentro dos itens de resultado */
+.item-resultado a {
+    font-family: "Chakra Petch", sans-serif;
+    text-decoration: none;
+    /* Remove o sublinhado padrão dos links */
+    color: #ffffff;
+    /* Cor do texto dos links */
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultado a:hover {
+    text-decoration: underline;
+    /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estiliza a descrição meta dentro dos itens de resultado */
+.descricao-meta {
+    color: white;
+    /* Cor do texto */
+    margin: 1.5rem;
+    /* Margem acima e abaixo */
+}
+
+/* Estiliza o rodapé da página */
+footer {
+    background: #0e0d0d;
+    opacity: 0.8;
+    color: #ffffff;
+    /* Cor do texto */
+    text-align: center;
+    /* Alinha o texto ao centro */
+    padding: 0;
+    /* Espaçamento interno */
+    width: 100%;
+    /* Largura total da página */
+    position: absolute;
+    /* Posiciona o rodapé */
+    bottom: 0;
+    /* Alinha ao fundo da página */
+    font-size: 1rem;
+    /* Tamanho da fonte */
+}
+
+.texto-branco {
+    color: white;
+    background-color: rgba(50, 48, 45, 0.7);
+    opacity: 1;
+    /* 50% de opacidade */
+    font-size: 14px;
+    /* Ajuste o tamanho da fonte conforme necessário */
+    padding: 6px;
+    /* Adiciona um espaço interno ao redor do texto */
+    border-radius: 1.5rem;
+    /* Borda arredondada */
+}
+
+/*meu-lateral referece aos icones do git e linkedin*/
+.menu-lateral {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.menu-lateral ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu-lateral .icone {
+    width: 30px;
+    filter: invert(1);
+    transition: 0.3s ease-in-out;
+}
+
+.menu-lateral .icone:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .resultados-pesquisa {
+        width: 100%;
+    }
+
+    .menu-lateral {
+        display: none;
+        /* Esconder a menu lateral em telas pequenas */
+    }
+
+}
