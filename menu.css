@@ -60,6 +60,7 @@ main {
         display: block;
         justify-content: center;
         text-align: center;
+
     }
 
     .nav-list {
@@ -70,8 +71,8 @@ main {
 
     .nav-list li {
         padding: 0;
-        margin-left: 10;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
+        margin-left: 5;
     }
 
     a.logo {
@@ -91,6 +92,12 @@ main {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+
+    }
+
+    ul.nav-list {
+        padding: 0;
+        margin: 0;
 
     }
 }
